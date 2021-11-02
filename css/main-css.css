@@ -373,70 +373,7 @@ p {
 
 
 
-/* navbar yoggle  */
-@media (min-width:320px) and (max-width:767.98px) {
-    .navbar-brand {
-        margin-top: -10px;
-        width: 170px !important
-    }
-    .navbar-toggle {
-        position: relative;
-        float: right;
-        padding: 9px 10px;
-        margin-top: 8px;
-        margin-right: 15px;
-        margin-bottom: 8px;
-        background-color: #101820FF;
-        background-image: none;
-        border-radius: 4px
-    }
-    .navbar-toggle .icon-bar {
-        background-color: #fff
-    }
-    .navbar-nav {
-        background-color: #101820FF
-    }
-    
-    .banner .content h2 {
-        font-weight: 700;
-        font-size: 40px !important
-    }
-    .title h2 {
-        font-size: 25px
-    }
-    .title h2 span {
-        color: #006B38FF
-    }
-    .title h4.title1 {
-        text-transform: uppercase;
-        margin-bottom: 30px;
-        font-size: 14px
-    }
 
-    .section-feature .content .box1{
-        margin-top: 0;
-    }
-    .row .hd{
-        display: block;
-    }
-    .row .sw{
-        display: none;
-    }
-    .footer .copyright{
-        margin-bottom: 130px;
-        
-        
-    }
-
-
-    .row12{
-        flex-direction: column;
-    }
-    .box12{
-        margin-bottom: 24px;
-        margin-right: 0 !important;
-    }
-}
 
 
 
@@ -796,4 +733,72 @@ input.form_btn {
 }
 .dwn{
     padding: 44px 2px;
+}
+
+
+
+
+/* navbar yoggle  */
+@media (min-width:320px) and (max-width:767.98px) {
+    .navbar-brand {
+        margin-top: -10px;
+        width: 170px !important
+    }
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: #101820FF;
+        background-image: none;
+        border-radius: 4px
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #fff
+    }
+    .navbar-nav {
+        background-color: #101820FF
+    }
+    
+    .banner .content h2 {
+        font-weight: 700;
+        font-size: 40px !important
+    }
+    .title h2 {
+        font-size: 25px
+    }
+    .title h2 span {
+        color: #006B38FF
+    }
+    .title h4.title1 {
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        font-size: 14px
+    }
+
+    .section-feature .content .box1{
+        margin-top: 0;
+    }
+    .row .hd{
+        display: block;
+    }
+    .row .sw{
+        display: none;
+    }
+    .footer .copyright{
+        margin-bottom: 130px;
+        
+        
+    }
+
+
+    .row12{
+        flex-direction: column;
+    }
+    .box12{
+        margin-bottom: 24px;
+        margin-right: 0 !important;
+    }
 }

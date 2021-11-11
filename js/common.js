@@ -432,6 +432,60 @@ $(document).ready(function() {
         $('.Act_vdodiv').hide();
         $('.Act_vdodiv').removeClass('Act_vdodiv_add');
     })
+
+
+
+
+
+ //Hide Loading Box (Preloader)
+ function handlePreloader() {
+    if ($('.preloader').length) {
+        $('.preloader').delay(200).fadeOut(500);
+    }
+}
+
+
+
+
+
+    //LightBox / Fancybox
+    if ($('.lightbox-image').length) {
+        $('.lightbox-image').fancybox({
+            openEffect: 'fade',
+            closeEffect: 'fade',
+            helpers: {
+                media: {}
+            }
+        });
+    }
+
+       /* ==========================================================================
+       When document is loading, do
+       ========================================================================== */
+
+       $(window).on('load', function() {
+        handlePreloader();
+    });
+        //Hide Loading Box (Preloader)
+        function handlePreloader() {
+            if ($('.preloader').length) {
+                $('.preloader').delay(200).fadeOut(500);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
 })
 
 new WOW().init()
+
+
+
+

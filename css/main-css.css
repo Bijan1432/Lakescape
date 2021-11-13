@@ -1324,6 +1324,21 @@ input.form_btn {
 
 
 
+/* call on nav */
+
+.phone-top{
+    background-color: #fff ;
+    padding: 9px 10px;
+    border-radius: 25px;
+    color: rgb(34, 126, 16);
+    margin-right: 5px;
+    font-size: 19px;
+    margin-top: -8px;
+    width: 35px;
+    height: 35px;
+}
+
+
 
 
 

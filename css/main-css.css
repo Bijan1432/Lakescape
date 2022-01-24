@@ -423,6 +423,12 @@ flex-basis: 26%;
 .section-gallery img {
     margin: 15px 0px
 }
+.section-gallery ul{
+    border: none;
+}
+.section-gallery ul li a{
+    border: none !important;
+}
 .popup-gallery .col-md-4 img{
     width: 350px !important;
     height: 228px !important;
@@ -1272,11 +1278,43 @@ input.form_btn {
 
 
 
-
+/* 
 .owl-nav{
     display: none;
+} */
+
+.owl-nav button{
+    width: 50px;
+    border: none;
+    background: #0f3e6a !important;
+    border-radius: 50% !important;
+}
+.owl-nav button i{
+    font-size: 40px;
+    transform: none;
+}
+.owl-prev {
+    width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    margin-left: 0px !important;
+    display: block !important;
+    margin-left: -43px !important;
+    border:0px solid black !important;
 }
 
+.owl-next {
+    width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    right: -5px;
+    display: block !important;
+    margin-right: -40px !important;
+    border:0px solid black;
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
 
 
 #whatsapp{
